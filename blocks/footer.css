@@ -1,0 +1,16 @@
+.footer {
+    margin: 0 auto 24px;
+    display: flex;
+    flex-direction: column;
+    color: #F5F5F5;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer__name {
+    margin-bottom: 4px;
+}
+
+.footer__year {
+    margin: 0 auto;
+}
