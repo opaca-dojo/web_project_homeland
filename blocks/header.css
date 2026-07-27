@@ -29,7 +29,6 @@
 }
 
 .header__image {
-    margin-left: 148px;
-    margin-right: 148px;
+    margin: 0 auto;
     filter: grayscale(100%);
 }
