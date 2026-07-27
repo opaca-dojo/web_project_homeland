@@ -7,29 +7,29 @@
 }
 
 .intro__title {
-    
     margin-bottom: 40px;
     font-size: 54px;
     line-height: 58px;
 }
 
 .intro__quote {
-    
+    max-width: 750px;
     margin-bottom: 10px;
     font-size: 24px;
+    font-style: italic;
     line-height: 34px;
 }
 
 .intro__author {
-    
-    margin: 0 0 32px auto;
+    margin: 0 50px 32px auto;
     font-size: 24px;
     font-style: normal;
     line-height: 34px;
 }
 
 .intro__paragraph {
-    
+    max-width: 934px;
     font-size: 16px;
     line-height: 163%;
+    text-align: justify;
 }
