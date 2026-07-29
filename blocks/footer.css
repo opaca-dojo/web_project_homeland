@@ -15,3 +15,18 @@
     margin: 0 auto;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 544px) {
+    .footer__name {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__year {
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

@@ -1,5 +1,6 @@
 .intro {
     max-width: 984px;
+    width: 100%;
     margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
@@ -7,7 +8,8 @@
 }
 
 .intro__title {
-    margin-bottom: 40px;
+    max-width: 830px;
+    margin-bottom: 50px;
     font-size: 54px;
     line-height: 58px;
 }
@@ -32,4 +34,49 @@
     font-size: 16px;
     line-height: 163%;
     text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        max-width: 720px;
+        width: calc(100% - 48px);
+        margin: 0 auto 88px;
+    }
+    .intro__title {
+        margin-bottom: 46px;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .intro__quote {
+        margin-bottom: 0;
+    }
+    .intro__author {
+        margin: 0 10px 32px auto;
+    }
+    .intro__paragraph {
+
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .intro {
+        max-width: 288px;
+        width: calc(100% - 32px);
+        margin: 0 auto 64px;
+    }
+    .intro__title {
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .intro__quote {
+        margin-bottom: 10px;
+        line-height: 30px;
+    }
+    .intro__author {
+
+    }
+    .intro__paragraph {
+
+    }
 }
